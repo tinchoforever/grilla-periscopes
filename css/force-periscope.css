@@ -1,0 +1,45 @@
+
+
+h1.timeline-Header-title {
+    display: none;
+}
+
+.TweetAuthor {
+    display:none;
+}
+
+p.timeline-Tweet-text {
+    display: none;
+}
+
+footer.timeline-Footer.u-cf {
+    display: none;
+}
+
+ul.timeline-Tweet-actions {
+    display: none;
+}
+
+.timeline-Tweet-metadata {
+    display: none;
+}
+
+.timeline-Tweet-brand.u-floatRight {
+    display: none;
+}
+
+.timeline-Viewport {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.timeline-Body.customisable-border {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.timeline-Header.timeline-InformationCircle-widgetParent {
+    display: none;
+}
