@@ -43,3 +43,146 @@ ul.timeline-Tweet-actions {
 .timeline-Header.timeline-InformationCircle-widgetParent {
     display: none;
 }
+
+html {
+    -webkit-font-smoothing: antialiased;
+    }
+
+body{
+    font-family:"AnfibiaRegular",sans-serif !important;
+    font-size:14px;
+    line-height:100%;
+    color:#000;
+    margin:0;
+    padding:0;
+    font-style:normal;
+    font-weight:normal;
+    overflow-x:hidden;
+    margin-top: 0!important;
+    }
+.clear{
+    width: 100%;
+    clear: both;
+}
+iframe{
+    max-width: 100%;
+}
+.fluid-width-video-wrapper{
+    margin-top: 20px;
+}
+.no-cursor,
+.no-cursor:hover{
+    cursor: default;
+}
+h1,h2,h3,h4,p {font-style:normal; font-weight:normal; margin:0; padding:0;}
+
+h1{font-family:"AnfibiaDisplay",sans-serif;font-size:100px;line-height:100%;}
+h2{font-family:"AnfibiaBlack",sans-serif;font-size:18px; line-height:100%;}
+h3{font-family:"AnfibiaBold",sans-serif;font-size:18px; line-height:120%;}
+h4{font-family:"AnfibiaRegular",sans-serif;font-size:14px; line-height:100%;}
+p{font-family:"AnfibiaText",sans-serif;font-size:17px; line-height:25px;}
+
+a {
+    color:#000;
+    text-decoration:none;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;}
+
+a:hover{color:#000; text-decoration:none; cursor:pointer;}
+
+img, img a, img a:hover {border:0!important;}
+
+.widget_sp_image-image-link,
+.attachment-full {border:0!important;}
+
+img.fancybox{display: inline-block!important;}
+
+strong {font-family:"AnfibiaBold",sans-serif; font-style:normal; font-weight:normal;}
+
+p strong {font-family:"AnfibiaTextBold"; font-style:normal; font-weight:normal;}
+
+.clear {margin:0!important;}
+
+@font-face{
+    font-family: 'AnfibiaDisplay';
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-display.eot');
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-display.eot?iefix') format('eot'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-display.woff') format('woff'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-display.ttf') format('truetype'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-display.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'AnfibiaBlack';
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-black.eot');
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-black.eot?iefix') format('eot'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-black.woff') format('woff'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-black.ttf') format('truetype'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-black.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'AnfibiaBold';
+    src: url('../fonts/anfibia-bold.eot');
+    src: url('../fonts/anfibia-bold.eot?iefix') format('eot'),
+         url('../fonts/anfibia-bold.woff') format('woff'),
+         url('../fonts/anfibia-bold.ttf') format('truetype'),
+         url('../fonts/anfibia-bold.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'AnfibiaRegular';
+    src: url('../fonts/anfibia-regular.eot');
+    src: url('../fonts/anfibia-regular.eot?iefix') format('eot'),
+         url('../fonts/anfibia-regular.woff') format('woff'),
+         url('../fonts/anfibia-regular.ttf') format('truetype'),
+         url('../fonts/anfibia-regular.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'AnfibiaText';
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-text.eot');
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-text.eot?iefix') format('eot'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-text.woff') format('woff'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-text.ttf') format('truetype'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-text.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family: 'AnfibiaTextBold';
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-textbold.eot');
+    src: url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-textbold.eot?iefix') format('eot'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-textbold.woff') format('woff'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-textbold.ttf') format('truetype'),
+         url('https://vivo-anfibio.herokuapp.com/fonts/anfibia-textbold.svg#webfont') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+div, ul, li {
+    display:block;
+    margin:0;
+    padding:0;
+    list-style:none;}
+.tit {
+padding-top:15px;
+padding-bottom: 15px;
+text-align :center;
+background-color: #FFE7E7;
+}
+.tit h2 {
+color:#000;
+}
